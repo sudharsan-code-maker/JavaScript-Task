@@ -4,14 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello</h1>
-  
-    <script src="./task1.js"></script>
-    <script src="./task2.js"></script>
-    <script src="./task3.js"></script>
-    <script src="./task4.js"></script>
+  <h1>Hello</h1>
+
+  <input type="text" id="search" placeholder="Search products..." />
+    
+  <select id="category">
+    <option value="all">All</option>
+    <option value="men's clothing">Men</option>
+    <option value="women's clothing">Women</option>
+    <option value="jewelery">Jewelery</option>
+    <option value="electronics">Electronics</option>
+  </select>
+
+  <!-- Sort -->
+  <select id="sort">
+    <option value="">Sort By</option>
+    <option value="low">Price Low → High</option>
+    <option value="high">Price High → Low</option>
+  </select>
+
+  <p id="status">Loading...</p>
+
+  <div id="container"></div>
+  <script src="./task1.js"></script>
+  <script src="./task2.js"></script>
+  <script src="./task3.js"></script>
+  <script src="./task4.js"></script>
+  <script src="./task5.js"></script>
     
 </body>
 </html>
